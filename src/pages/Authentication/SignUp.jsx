@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Breadcrumb from '../../components/Breadcrumbs/Breadcrumb';
+
 import LogoDark from '../../images/logo/logo-dark.svg';
 import Logo from '../../assets/logo.png';
 
@@ -10,14 +10,20 @@ const SignUp = () => {
 			<div className="rounded-sm  bg-white  dark:border-strokedark dark:bg-boxdark">
 				<div className="flex flex-wrap items-center">
 					<div className="hidden w-full xl:block xl:w-1/2">
-						<div className="py-17.5 px-26 text-center">
-							<Link className="mb-5.5 inline-block" to="/">
+						<div className="py- px-26 text-center">
+							<Link className=" inline-block" to="/">
 								{/* <img className="hidden dark:block" src={Logo} alt="Logo" /> */}
-								<img width={300} className="dark:hidden" src={Logo} alt="Logo" />
+								<img
+									width={300}
+									className="dark:hidden"
+									src={Logo}
+									alt="Logo"
+								/>
 							</Link>
 							<p className="2xl:px-20">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit
-								suspendisse.
+								​Short Circuit Science is at the forefront of sports analytics,
+								harnessing the power of AI and computer vision to delve deep
+								into the world of sports.
 							</p>
 
 							<span className="mt-15 inline-block">
